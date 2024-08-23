@@ -1,4 +1,4 @@
-package ejemplos.simples;
+package simples;
 
 public class TestFuncionaJava {
 

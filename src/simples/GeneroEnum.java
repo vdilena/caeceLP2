@@ -1,4 +1,4 @@
-package ejemplos.simples;
+package simples;
 
 public enum GeneroEnum {
 	FEM, MASC;
