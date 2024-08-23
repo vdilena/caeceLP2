@@ -1,0 +1,3 @@
+1984,George Orwell,true
+El Quijote,Miguel de Cervantes,false
+Cien Años de Soledad,Gabriel García Márquez,true
