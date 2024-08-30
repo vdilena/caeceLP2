@@ -2,7 +2,7 @@ package simples;
 
 public class Persona {
 	
-	private String nombre;
+	protected String nombre;
 	private Integer edad;
 	private GeneroEnum genero;
 	
@@ -24,13 +24,15 @@ public class Persona {
 		/*
 		 * Este un comentario de bloque
 		 */
-		System.out.println("Nombre: " + nombre + ", edad:" + edad + ", Genero:" + genero);
+		Integer unNumero = null;
+		System.out.println("Nombre: " + nombre + ", edad:" + edad + ", Genero:" + genero + ", El numero: " + unNumero);
 	}
 	
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Nombre: " + nombre + ", edad:" + edad + ", Genero:" + genero;
+		Integer unNumero = 8;
+		return "Nombre: " + nombre + ", edad:" + edad + ", Genero:" + genero  + ", El numero: " + unNumero;
 	}
 
 }
