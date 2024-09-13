@@ -8,15 +8,17 @@ public class TestSqlException {
 
 	public static void main(String[] args) {
 		
-		String rutaBaseDatos = "jdbc:mysql://localhost:3306/db";
+		String rutaBaseDatos = "jdbc:mysql://localhost:3307/dbLP2";
         String usuario = "root";
-        String password = "1234";
+        String password = "";
         
         try {
         	
         	// https://www.mysql.com/products/connector/
             Connection conexion = DriverManager.getConnection(rutaBaseDatos, usuario, password);
+            System.out.println("Falla por aca 1");
         } catch (SQLException e) {
+        	System.out.println("Falla por aca 2");
             e.printStackTrace();
         }
 

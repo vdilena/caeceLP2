@@ -14,6 +14,8 @@ public class TestFileNotFoundException {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		
+		System.out.println("El programa continuo!");
 
 	}
 

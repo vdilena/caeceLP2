@@ -56,7 +56,10 @@ class RegistroEstudiantes {
             System.out.println("Clase " + clase.getName() + " cargada exitosamente.");
         } catch (ClassNotFoundException e) {
             System.out.println("Error: La clase " + className + " no se pudo encontrar.");
+        	//e.printStackTrace();
         }
+        
+        System.out.println("Continuo el programa!");
     }
 }
 
